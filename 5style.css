@@ -1,0 +1,101 @@
+body {
+  background-color: lavender;
+}
+h1, h2, h3 {
+  text-align: center;
+}
+#wrapper {
+  width: 80%; 
+  margin: auto; 
+  background-color: lightcyan; 
+  box-shadow: 10px 10px;
+}
+
+div {width: 90%; margin: auto;}
+
+.itembox {
+  border: solid; 
+  border-radius: 20px;
+  border-color: indigo; 
+  box-shadow: 5px 5px 5px black; 
+  background-color: blanchedalmond; 
+  color: crimson; 
+  padding: 5px 10px;
+}
+
+.favorite {
+  border: double; 
+  border-radius: 15px; 
+  border-color: darkorchid; 
+  box-shadow: 5px 5px black; 
+  background-color: lightgreen; 
+  color: crimson; 
+  padding: 5px 10px;
+}
+
+ol {
+  background-color: lightgreen;
+  list-style-type: cjk-ideographic;
+}
+ul {
+  background-color: blanchedalmond;
+  list-style-type: square;
+}
+.directory {
+  border-radius: 15px;
+  background-color: rgb(60, 60, 60);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.directory li {
+  display: inline-block;
+  font-size: 23px;
+  padding: 15px;
+}
+.directory li:hover {
+  background-color: rgb(0, 0, 0);
+  padding: 15px;
+  border-radius: 15px;
+}
+.directory li {
+  text-decoration: none;
+  color: white;
+}
+/* unvisited link */
+a.dir:link {
+  color: red;
+}
+
+/* visited link */
+a.dir:visited {
+  color: green;
+}
+
+/* mouse over link */
+a.dir:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a.dir:active {
+  color: blue;
+}
+
+
+/*This section was added for the main page link in Topic Box */  
+/*unvisited link HOME */
+a.dirA:link {
+  color: darkorange; }
+
+/* visited link HOME */
+a.dirA:visited {
+  color: darkseagreen; }
+
+/* mouse over link HOME */
+a.dirA:hover {
+  color: gold; }
+
+/* selected link HOME */
+a.dirA:active {
+  color: pink; }

@@ -1,0 +1,23 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+/* unvisited link */
+a.main:link {
+  color: red;
+}
+
+/* visited link */
+a.main:visited {
+  color: lawngreen;
+}
+
+/* mouse over link */
+a.main:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a.main:active {
+  color: blue;
+}
