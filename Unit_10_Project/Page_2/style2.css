@@ -1,0 +1,9 @@
+table{
+  text-align: center;
+  width:75%;
+}
+td, th, tr{
+  border:1px solid black;
+}
+tr:nth-child(even) {
+  background-color: #FDF5E6;

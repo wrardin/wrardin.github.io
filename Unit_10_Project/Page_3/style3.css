@@ -1,0 +1,23 @@
+div.a {
+  text-align: center;
+  background-color: rebeccapurple;
+  color: white;
+  }
+table {
+    margin-left: auto;
+  margin-right: auto;}
+td {
+  text-align: center;
+}
+th, td, tr {
+  border: 1px solid rebeccapurple;
+  height: 100%;
+}
+img{
+  float: center;
+  width: auto;
+  height: 125px;
+  }
+ol{
+  text-align: left;
+}
