@@ -2,6 +2,15 @@ html, body {
   height: 100%;
   width: 100%;
 }
+body {
+  background-image: URL('Background/Beach_Palm_Tree.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: 100% 100%;}
+  h1 {text-align: center; font-family: , Helvetica, sans-serif;}
+  dl {text-align: center;}
+  dd {color: yellow;}
+
 /* unvisited link */
 a.main:link {
   color: red;

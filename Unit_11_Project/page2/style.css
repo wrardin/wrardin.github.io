@@ -1,0 +1,18 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  text-align: center;
+}
+fieldset {
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+th, td {
+  border: 1px solid black;
+}
+footer {
+  text-align: center;
